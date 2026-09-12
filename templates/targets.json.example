@@ -1,0 +1,18 @@
+{
+  "event": "Siege of Servers",
+  "service": "replace-with-service-name",
+  "port": 5000,
+  "targets": [
+    {
+      "team": "team02",
+      "ip": "10.0.0.22",
+      "enabled": true
+    },
+    {
+      "team": "team03",
+      "ip": "10.0.0.23",
+      "enabled": true
+    }
+  ],
+  "notes": "Replace only with organizer-confirmed opponent Private IPs and the announced service port. Never add scoreboard, organizer infrastructure, Public IPs, or unrelated systems."
+}
